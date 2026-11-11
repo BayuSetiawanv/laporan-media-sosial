@@ -1,0 +1,11 @@
+   # Folder data sensitif (JANGAN DI-UPLOAD)
+   data/
+   secret.key
+   
+   # Folder dependencies Node.js
+   node_modules/
+   
+   # File log dan environment
+   *.log
+   .env
+   .env.local
