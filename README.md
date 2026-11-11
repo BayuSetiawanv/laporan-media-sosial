@@ -1,0 +1,7 @@
+# Laporan Media Sosial
+Jalankan: `node server.js` (Node.js 18+), buka http://localhost:3000
+Pertama kali: buat akun admin. Setelah itu: menu "Koneksi akun" untuk mengambil data, atau "Impor CSV".
+Data ada di folder `data/` (db.json + secret.key). Jangan bagikan folder itu; cadangkan keduanya bersama.
+Online: set HOST=0.0.0.0 dan pasang di belakang HTTPS (Render/Railway/Caddy). Header X-Forwarded-Proto=https mengaktifkan cookie Secure.
+Kunci YouTube: Google Cloud Console > YouTube Data API v3 > API key.
+Instagram/Facebook: developers.facebook.com > Graph API Explorer > buat token (long-lived untuk pemakaian rutin).
